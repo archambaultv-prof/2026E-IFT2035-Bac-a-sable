@@ -5,3 +5,12 @@ def hypotenuse(a, b):
     a_au_carre = a * a
     b_au_carre = b * b
     return math.sqrt(a_au_carre + b_au_carre)
+
+print("a")
+print("b")
+
+
+def hypotenuse2(a, b):
+    a_au_carre = a * a
+    b_au_carre = b * b
+    return math.sqrt(a_au_carre + b_au_carre)

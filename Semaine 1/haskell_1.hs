@@ -11,6 +11,14 @@ double x = x * 2
 carre x = x * x
 
 hypotenuse a b = 
-    let au_carre = a * a
+    let a_au_carre = a * a
         b_au_carre = b * b
-    in sqrt (au_carre + b_au_carre)
+    in sqrt (a_au_carre + b_au_carre)
+
+hypotenuse' a b = sqrt (a * a + b * b)
+
+hypotenuse2 a b = 
+    let a_au_carre = a * a
+        b_au_carre = b * b
+    in let a_au_carre = 0
+       in sqrt (a_au_carre + b_au_carre)
