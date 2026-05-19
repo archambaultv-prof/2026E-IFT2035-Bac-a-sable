@@ -6,8 +6,14 @@ for x in liste:
 
 nouvelle_liste = [x * 2 for x in liste]
 
-def foo(x):
-    return x * 2
+# def foo(x):
+#     return x * 2
 
-x = foo
-print(type(x))
+# x = foo
+# print(type(x))
+
+acc = 1
+for i in range(1, 6):
+    acc *= i
+
+print(acc)

@@ -8,7 +8,7 @@ calculNouvelleListe :: [Integer] -> [Integer]
 calculNouvelleListe [] = []
 calculNouvelleListe (x:xs) = (x * 2) : calculNouvelleListe xs
 
-myMap :: (Integer -> Integer) -> [Integer] -> [Integer]
+myMap :: (a -> b) -> [a] -> [b]
 myMap f [] = []
 myMap f (x:xs) = f x : myMap f xs
 
