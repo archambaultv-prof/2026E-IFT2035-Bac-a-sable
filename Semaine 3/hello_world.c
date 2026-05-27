@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int x = 5;
+    // int x = 5;
     printf("Hello World\n");
-    printf("x = %d\n", x);
+    // printf("x = %d\n", x);
     return 0;
 }
